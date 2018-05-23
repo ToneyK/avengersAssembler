@@ -1,0 +1,24 @@
+{
+  "name": "avengersassembler",
+  "version": "1.0.0",
+  "description": "The Avengers Assembler application is using HTML/CSS and Materialize for a front end framework. Node.js and Express for the backend.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToneyK/avengersAssembler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToneyK/avengersAssembler/issues"
+  },
+  "homepage": "https://github.com/ToneyK/avengersAssembler#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  }
+}

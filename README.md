@@ -7,8 +7,8 @@ The Avengers Assembler application is using HTML/CSS and Materialize for a front
 
 ## Screen Shots
 
-![Screen shot](assets/images/ScreenShot.png)
-![Screen shot](assets/images/ScreenShot2.png)
+![Screen shot](public/assets/images/ScreenShot.png)
+![Screen shot](public/assets/images/ScreenShot2.png)
 
 ### Prerequisites
 

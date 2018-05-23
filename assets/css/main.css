@@ -1,0 +1,278 @@
+
+
+/*Main Page CSS*/
+.container {
+    display: table;
+    width: 100%;
+} 
+.column {
+    display: table-cell;
+}
+.mainBody {
+    background-color: #0A0C09;
+}
+/*Avengers Logo*/
+.avengersLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Character Images*/
+.circle:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
+    -webkit-border-radius: -30px;
+    -moz-border-radius: -30px;
+    border-radius: -30px;
+    -webkit-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9,
+      0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+    -moz-box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9,
+      0 0 30px #50a7e9, 0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #50a7e9, 0 0 30px #50a7e9,
+      0 0 40px #50a7e9, 0 0 55px #50a7e9, 0 0 75px #50a7e9;
+}
+
+/* Production Page CSS */
+img.alt-page-links {
+    height: auto;
+    max-width: 90px;
+}
+
+#marvelSuperherosProdPG {
+    height: 85px;
+    max-width: 130px;
+    float: right;
+}
+
+#marvelSuperherosIndexPG {
+    height: 120px;
+    max-width: 160px;
+    float: right;
+}
+#avengersIndexLink {
+    height: 100px;
+    max-width: 120px;
+    float: right;
+}
+
+.page-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Production Page CSS */
+/* Setting Up Downloaded Fonts */
+@font-face {
+    font-family: 'comic_bookitalic';
+    src: url('./fonts/comic_book_italic-webfont.woff2') format('woff2'),
+         url('.fonts/comic_book_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'avengeance_heroic_avengerIt';
+    src: url('./fonts/avengeance_heroic_avenger_at-webfont.woff2') format('woff2'),
+         url('./fonts/avengeance_heroic_avenger_at-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* game page */
+
+.game{
+    display: flex;
+    justify-content: center;
+}
+.playerInfo {
+    margin: 2%;
+    color: white;
+}
+/* game page */
+
+/* Character Page CSS */
+/* Whole Body */
+body {
+    background-color: #2d2d2e;
+}
+
+/* Title Row */
+.title {
+    border-bottom: solid #E5C85F;
+}
+ #charImage {
+     height: 100%;
+ }
+ .cartoon {
+    max-width: 100%;
+ }
+#characterName {
+    font-family: 'avengeance_heroic_avengerIt';
+    font-size: 100px;
+    color: #9A3838;
+    text-align: center;
+    line-height: 100%;
+}
+.homebutton {
+    height: 100%;
+}
+.BackToHome:hover {
+    filter: brightness(75%);
+}
+.BackToHome {
+    max-width: 100%;
+}
+
+/* All Character Content */
+.sectionTitle {
+    font-family: 'avengeance_heroic_avengerIt';
+    color: #2d2d2e;
+}
+.text {
+    color: #E8F1EC;
+    font-family: 'comic_bookitalic';
+}
+hr {
+    border-color: #2d2d2e;
+}
+
+/* wiki dynamic button styling */
+.wiki-button-style {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% auto;
+}
+/*  */
+
+/* Comic Books Section */
+.comicbooks {
+    background-color: #E5C85F;
+}
+#ComicsTitle {
+    text-align: center;
+}
+#comictext {
+    color: #2d2d2e;
+}
+#comictext:hover {
+    text-decoration: underline;
+}
+#comiclinks {
+    text-align: center;
+}
+
+/* Character Bio Section */
+.bio {
+    background-color: #427085;
+}
+
+/* Movie Info Section */
+.info {
+    background-color: #9A3838;
+}
+.mini {
+    border-color: #E8F1EC;
+}
+h4 {
+    color: #E8F1EC;
+    font-family: 'comic_bookitalic';
+    text-align: center;
+}
+h5 {
+    color: #E8F1EC;
+    text-align: center;
+    font-family: 'comic_bookitalic';
+}
+
+/* Spotify Section */
+.spotify {
+    background-color: #6AD270;
+}
+
+/* Footer */
+.footer-copyright {
+    text-align: center;
+    color: #E8F1EC;
+    font-family: 'avengeance_heroic_avengerIt';
+    letter-spacing: 2px;
+}
+
+.invisible {
+    display: none;
+}
+/* goonies link */
+.dTeam{
+    margin: 2em;
+}
+
+/* game controls div */
+#game-console {
+    display: flex;
+    justify-content: center;
+    
+    /* border: 2px solid white; */
+
+}
+#gameControls {
+    margin: auto 10px;
+    padding: 10px;
+    height: auto;
+    width: 189.2px;
+    border: 2px solid white;
+
+}
+
+
+#submit-button-style {
+    color: black;
+}
+
+.page-footer{
+    background-color: #9A3838;
+    color: black;
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    color: black;
+}
+
+/* end */
+
+@media (max-width:700px) {
+    
+    .mediaCol {
+        position:absolute;
+        display: inline-block;
+    };
+}
+
+@media only screen and (min-width: 1280px) {
+    .row .col.pull-l2 {
+        padding-top: 1.5%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.pull-l2 {
+        padding-top: 1.5%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .BackToHome {
+        height: 189.2px;
+        width: 189.2px;
+    }
+    .cartoon {
+        height: 189.2px;
+        width: 189.2px;
+    }
+}
+@media only screen and (max-width:700px) {
+    
+    .mediaCol {
+        position:absolute;
+        display: inline-block;
+        
+    }
+}
+
